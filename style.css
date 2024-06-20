@@ -67,7 +67,10 @@ body{
   .home-content h3{
     font-size: 32px;
     font-weight: 700;
-  }
+    animation: slideBottom 1s ease forwards;
+    opacity: .7s;
+   
+}
   .home-content h3 span{
     color:#0ef;
   }
@@ -143,4 +146,16 @@ body{
         transform: translateY(0px);
         opacity: 1;
 }
+}
+
+@keyframes slideBottom {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+    }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
 }
