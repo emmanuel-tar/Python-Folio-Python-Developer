@@ -132,7 +132,10 @@ body {
   box-shadow: 0 0 5px #0ef;
 }
 .btn-box:hover {
-  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan,
+  box-shadow: 0 0 5px cyan, 
+  0 0 25px cyan,
+   0 0 50px cyan,
+    0 0 100px cyan,
     0 0 200px cyan;
 }
 
@@ -144,11 +147,11 @@ body {
 }
 .about-img img{
   padding-bottom: 20%;
-  max-height: 630px;
+  max-width: 320px;
   height: auto;
   width: 100%;
   border-radius: 8px;
-}
+  }
 
 .about-text h2{
   font-size: 60px;
